@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapTileTest", "MapTileTest\MapTileTest.csproj", "{8F77A54D-AE53-4CA6-93C6-F22CC6D4C8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileMap", "TileMap\TileMap.csproj", "{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datasave", "Datasave\Datasave.csproj", "{5D1141B1-0CB4-4059-B7DF-7AA21645288E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F77A54D-AE53-4CA6-93C6-F22CC6D4C8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F77A54D-AE53-4CA6-93C6-F22CC6D4C8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F77A54D-AE53-4CA6-93C6-F22CC6D4C8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F77A54D-AE53-4CA6-93C6-F22CC6D4C8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE907CED-B35D-497F-8C5A-5554D2B4E5B4}
+	EndGlobalSection
+EndGlobal
