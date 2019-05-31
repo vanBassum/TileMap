@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapTileTest", "MapTileTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileMap", "TileMap\TileMap.csproj", "{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datasave", "Datasave\Datasave.csproj", "{5D1141B1-0CB4-4059-B7DF-7AA21645288E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{373C9DEF-8CC4-4EFF-9AC1-95EB4EAA5E89}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D1141B1-0CB4-4059-B7DF-7AA21645288E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -41,9 +41,13 @@ namespace TileMap
             cacheFolder = Path.GetDirectoryName(mapFile);
             mapSettings = new MapSettings();
 
-            mapSettings.Save(mapFile);
-            mapSettings.Load<MapSettings>(mapFile);
+            //mapSettings.Save(mapFile);
+
+            using (Stream stream = File.Open(mapFile, FileMode.Open, FileAccess.Read ))
+                mapSettings.Load<MapSettings>(stream);
             
+
+
             coordConverter = new CoordConverter();
             coordConverter.Calibrate(mapSettings.CalibrationPoints);
             OnMapLoaded?.Invoke();

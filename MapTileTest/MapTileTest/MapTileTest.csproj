@@ -80,10 +80,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Datasave\Datasave.csproj">
-      <Project>{5d1141b1-0cb4-4059-b7df-7aa21645288e}</Project>
-      <Name>Datasave</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TileMap\TileMap.csproj">
       <Project>{373c9def-8cc4-4eff-9ac1-95eb4eaa5e89}</Project>
       <Name>TileMap</Name>
