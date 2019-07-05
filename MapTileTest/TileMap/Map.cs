@@ -10,7 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
-using Datasave;
+using MasterLibrary.Datasave;
 using System.Net.Security;
 
 namespace TileMap
@@ -44,7 +44,7 @@ namespace TileMap
             //mapSettings.Save(mapFile);
 
             using (Stream stream = File.Open(mapFile, FileMode.Open, FileAccess.Read ))
-                mapSettings.Load<MapSettings>(stream);
+                mapSettings.Load(stream);
             
 
 

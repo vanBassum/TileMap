@@ -1,4 +1,4 @@
-﻿using Datasave;
+﻿using MasterLibrary.Datasave.SaveableClasses;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TileMap
 {
-    class MapSettings : SettingsExtention
+    class MapSettings : SaveableSettings
     {
         public string Mapname { get => GetPar<string>(); set => SetPar(value); }
         public int Zoomlevels { get => GetPar<int>(); set => SetPar(value); }

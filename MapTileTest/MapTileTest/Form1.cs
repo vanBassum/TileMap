@@ -1,26 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using TileMap;
-using Datasave;
-using System.Net;
 using System.IO;
 
 namespace MapTileTest
 {
     public partial class Form1 : Form
     {
-        //JSONSerializer json = new JSONSerializer();
-        //Settings settings;
-        //MapProvider mapProvider;
         Map map;
-        //string cacheFolder = "";
 
         public Form1()
         {
@@ -29,10 +17,7 @@ namespace MapTileTest
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string appdataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-            string assemblyName = Path.GetFileNameWithoutExtension(AppDomain.CurrentDomain.FriendlyName);
-
-            map = new Map(Path.Combine(appdataFolder, assemblyName, "Cache", "Conan exiles\\Settings.json"));
+            map = new Map("Testmap\\Settings.json");
             map.OnDrawObjects += Map_OnDrawObjects;
             map.OnMapLoaded += Map_OnMapLoaded;
             panel1.Controls.Add(map.viewPort);
@@ -83,33 +68,4 @@ namespace MapTileTest
     
 
     
-    /*
-
-    [Serializable]
-    public class Settings
-    {
-        public Uri MapProviderUri { get; set; } = new Uri("http://vanbassum.com:81/Maps/Maps.json");
-        public string Host { get; set; } = "127.0.0.1";
-        public int Port { get; set; } = 1000;
-        public string Nickname { get; set; } = "NoName";
-    }
-
-    [Serializable]
-    public class MapProvider
-    {
-        public List<MapInfo> Maps = new List<MapInfo> { };
-    }
-
-    public class MapInfo
-    {
-        public string Name { get; set; }
-        public Uri Url { get; set; }
-        public int MaxZoom { get; set; }
-
-        public override string ToString()
-        {
-            return Name;
-        }
-    }
-    */
 }
