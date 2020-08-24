@@ -58,10 +58,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="RenderedImage.cs" />
-    <Compile Include="Datasave\SavableBindingList.cs" />
-    <Compile Include="Datasave\Serializer.cs" />
     <Compile Include="Settings.cs" />
-    <Compile Include="Datasave\SettingsExtention.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -76,6 +73,10 @@
     <ProjectReference Include="..\..\NET_Library\MasterLibrary\MasterLibrary\MasterLibrary.csproj">
       <Project>{e10936be-d859-498c-bd70-a1a896260ecf}</Project>
       <Name>MasterLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NET_Library\STDLib\STDLib.csproj">
+      <Project>{8614fea6-95d4-4e8e-8b35-80a80f39178f}</Project>
+      <Name>STDLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

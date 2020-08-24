@@ -1,4 +1,4 @@
-﻿using MasterLibrary.Datasave.SaveableClasses;
+﻿using STDLib.Saveable;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace TileMap
 {
-    class MapSettings : SaveableSettings
+    public class MapSettings : SaveableSettings
     {
-        public string Mapname { get => GetPar<string>(); set => SetPar(value); }
-        public int Zoomlevels { get => GetPar<int>(); set => SetPar(value); }
-        public Size Tilesize { get => GetPar<Size>(); set => SetPar(value); }
-        public List<KeyValuePair<Point, Coordinate>> CalibrationPoints { get => GetPar<List<KeyValuePair<Point, Coordinate>>>(); set => SetPar(value); }
+        public string Mapname { get; set; }
+        public int Zoomlevels { get; set; }
+        public Size Tilesize { get; set; } = new Size(256, 256);
+        public List<KeyValuePair<Point, Coordinate>> CalibrationPoints { get; set; } = new List<KeyValuePair<Point, Coordinate>>();
 
         /*
         public MapSettings() : base(new Serializer_JSON())
