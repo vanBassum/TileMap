@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileMapClient", "TileMapClient\TileMapClient.csproj", "{13807D8A-89E1-4D87-B42B-415901F6A314}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STDLib", "..\NET_Library\STDLib\STDLib.csproj", "{875FE315-E443-4104-89E4-63EC72A1EB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRMLib", "..\NET_Library\FRMLib\FRMLib.csproj", "{6062FC18-1C98-4F9A-BE4C-44171CBCB55E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TileMapServer", "TileMapServer\TileMapServer.csproj", "{BE368F5A-7989-4C75-961D-6A6E7A71236C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileMapLib", "TileMapLib\TileMapLib.csproj", "{48B01E9E-F2B6-4E32-9AB7-C6D55BCD6C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileMapCreator", "TileMapCreator\TileMapCreator.csproj", "{37299030-4A4D-4053-A92F-EB5DF8D0807C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13807D8A-89E1-4D87-B42B-415901F6A314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13807D8A-89E1-4D87-B42B-415901F6A314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13807D8A-89E1-4D87-B42B-415901F6A314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13807D8A-89E1-4D87-B42B-415901F6A314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875FE315-E443-4104-89E4-63EC72A1EB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875FE315-E443-4104-89E4-63EC72A1EB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875FE315-E443-4104-89E4-63EC72A1EB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875FE315-E443-4104-89E4-63EC72A1EB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6062FC18-1C98-4F9A-BE4C-44171CBCB55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6062FC18-1C98-4F9A-BE4C-44171CBCB55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6062FC18-1C98-4F9A-BE4C-44171CBCB55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6062FC18-1C98-4F9A-BE4C-44171CBCB55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE368F5A-7989-4C75-961D-6A6E7A71236C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE368F5A-7989-4C75-961D-6A6E7A71236C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE368F5A-7989-4C75-961D-6A6E7A71236C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE368F5A-7989-4C75-961D-6A6E7A71236C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B01E9E-F2B6-4E32-9AB7-C6D55BCD6C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B01E9E-F2B6-4E32-9AB7-C6D55BCD6C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B01E9E-F2B6-4E32-9AB7-C6D55BCD6C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B01E9E-F2B6-4E32-9AB7-C6D55BCD6C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37299030-4A4D-4053-A92F-EB5DF8D0807C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37299030-4A4D-4053-A92F-EB5DF8D0807C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37299030-4A4D-4053-A92F-EB5DF8D0807C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37299030-4A4D-4053-A92F-EB5DF8D0807C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B1415F5-85DC-471B-8714-B15AA846F2FF}
+	EndGlobalSection
+EndGlobal
